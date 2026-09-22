@@ -1,0 +1,6 @@
+
+@media(prefers-reduced-motion:no-preference){
+ .section-arrival{transition:opacity .65s ease,transform .65s cubic-bezier(.2,.65,.3,1)}
+ .section-arrival.is-pending{opacity:0;transform:translateY(24px)}
+}
+@media(prefers-reduced-motion:reduce){.section-arrival,.section-arrival.is-pending{opacity:1!important;transform:none!important;transition:none!important}}
