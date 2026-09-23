@@ -1,4 +1,4 @@
-#breez-root{--embedded-bg-20:url("assets/312b4bafd70d84.png");}
+#breez-root{--embedded-bg-20:url("assets/312b4bafd70d84.webp");}
 #breez-root{--page:#010101;--surface:#010101;--surface-raised:#010101;--ink:#edf5f7;--muted:#b3c4cc;--accent:#07e7ed;--line:#354b56;--radius:20px;--small-radius:12px;--lightningcss-light: ;--lightningcss-dark:initial;color-scheme:dark}
 #breez-root *{box-sizing:border-box}
 #breez-root{background:var(--page);scroll-behavior:smooth;scroll-padding-top:98px}

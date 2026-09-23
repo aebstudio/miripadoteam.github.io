@@ -1,5 +1,5 @@
 (()=>{
-window.breezBackgrounds={"product":"assets/ondea-background.png","premium":"assets/ondea-background.png","short":"assets/ondea-background.png","feed":"assets/ondea-background.png","story":"assets/ondea-background.png","banner":"assets/ondea-background.png"};document.documentElement.style.setProperty("--breez-generated-product",`url("${window.breezBackgrounds.product}")`);
+window.breezBackgrounds={"product":"assets/ondea-background.webp","premium":"assets/ondea-background.webp","short":"assets/ondea-background.webp","feed":"assets/ondea-background.webp","story":"assets/ondea-background.webp","banner":"assets/ondea-background.webp"};document.documentElement.style.setProperty("--breez-generated-product",`url("${window.breezBackgrounds.product}")`);
 window.breezEdits={};window.breezEditors={};
 window.breezEditSummary=key=>{let entry=window.breezEdits[key];return entry?entry.state.elements.map(e=>`${e.label}: 위치 ${Math.round(e.x)}, ${Math.round(e.y)} / 크기 ${Math.round(e.w)} × ${Math.round(e.h)}${e.text?' / 문구 '+e.text.replaceAll('\n',' '):''}`).join('\n'):'직접 편집 전';};
 window.mountBreezEditor=function(root,src,config){
