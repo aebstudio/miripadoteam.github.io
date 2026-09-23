@@ -1,3 +1,13 @@
 (()=>{
-window.__embeddedAssets={"assets/practice/breez-320.webp": "assets/ondea-product.webp", "assets/practice/breez-640.webp": "assets/ondea-product.webp", "assets/practice/breez-960.webp": "assets/ondea-product.webp", "assets/fonts/PretendardVariable.woff2": "assets/9599f12fd42fc0.woff2"};
+window.__embeddedAssets={
+  "assets/practice/breez-320.webp":"assets/practice/breez-320.webp",
+  "assets/practice/breez-640.webp":"assets/practice/breez-640.webp",
+  "assets/practice/breez-960.webp":"assets/practice/breez-960.webp",
+  "assets/fonts/PretendardVariable.woff2":"assets/fonts/PretendardVariable.woff2",
+  "assets/brand/miricanvas-logo.svg":"assets/d5e27f140d1caa.svg",
+  "assets/objects/review-360.webp":"assets/62d87e5164cbe5.webp",
+  "assets/objects/review-640.webp":"assets/62d87e5164cbe5.webp",
+  "assets/banner-v5/loop-desktop-poster.png":"assets/hero-centered.webp",
+  "assets/banner-v5/loop-mobile-poster.png":"assets/hero-centered.webp"
+};
 })();
