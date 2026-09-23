@@ -1810,5 +1810,36 @@ body{background:#fff;color:#151515}
 #practice #breez-root .bz-prompt-panel details{border-color:#ddd}
 #practice #breez-root .practice-studio .bz-handoff-steps li::before{color:#087d83}
 #practice #breez-root .practice-intro details{background:#fff;border-color:#ddd;color:#555}
+
+/* Center mobile page copy without changing the editable artwork layout. */
+@media(max-width:767px){
+ .site-header nav{text-align:center!important}
+ main h1,main h2,main h3,main h4,main p,main li,main dt,main dd,
+ main blockquote,main figcaption,main summary,
+ footer h2,footer h3,footer p,footer li{text-align:center!important}
+ main .eyebrow,main .lead,main .small,main .education-copy,
+ main .breez-entry-copy,main .practice-heading,
+ main .practice-instructions,main .channel-rules,
+ footer .eyebrow{text-align:center!important}
+ main .copy-line,main .copy-sentence,main .prose-line{max-width:100%}
+ #intro-features .education-copy{align-items:center;text-align:center!important}
+ #practice .practice-heading>div,#practice .practice-heading{width:100%;text-align:center!important}
+ #practice .breez-entry ul{list-style:none;padding-left:0}
+ #practice .breez-workspace-bar{justify-content:center;text-align:center!important}
+ #practice .breez-workspace-bar p{width:100%}
+ #breez-root .practice-intro{justify-content:center}
+ #breez-root .practice-instructions h3,#breez-root .practice-instructions p,
+ #breez-root .practice-instructions dd,#breez-root .practice-instructions dt,
+ #breez-root .channel-rules h3,#breez-root .channel-rules dd,
+ #breez-root .channel-rules dt,#breez-root .practice-brief,
+ #breez-root .sample-type,#breez-root .bz-hint,
+ #breez-root .bz-status,#breez-root .bz-dimensions{text-align:center!important}
+ #breez-root .bz-handoff-header{align-items:center;text-align:center!important}
+ #breez-root .bz-prompt-buttons{justify-content:center}
+ #breez-root .practice-studio .bz-prompt-panel .bz-handoff-steps li{padding-left:0;text-align:center!important}
+ #breez-root .practice-studio .bz-prompt-panel .bz-handoff-steps li::before{position:static;display:block;margin-bottom:8px}
+ #breez-root .bz-prompt-panel h3,#breez-root .bz-prompt-panel p,
+ #breez-root .bz-prompt-panel li,#breez-root .bz-prompt-panel summary{text-align:center!important}
+}
 </style>
 </body></html>
